@@ -749,5 +749,7 @@ extern fstrans_cookie_t spl_fstrans_mark(void);
 extern void spl_fstrans_unmark(fstrans_cookie_t);
 extern int spl_fstrans_check(void);
 
+#define	____cacheline_aligned
+
 #endif /* _KERNEL */
 #endif	/* _SYS_ZFS_CONTEXT_H */
